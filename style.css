@@ -23,6 +23,7 @@ main {
     height: 40rem;
     background-image: url("rik-buiting-Zb-nqiQsLe4-unsplash.jpg");
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
