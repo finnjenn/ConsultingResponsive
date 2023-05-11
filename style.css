@@ -1,0 +1,133 @@
+body {
+    font-family: 'Oxygen', arial, helvetica, sans-serif;
+    font-weight: 300;
+}
+nav {
+    background-color: rgb(12, 60, 96);
+    font-size: 110%;
+}
+.nav-item {
+    padding: 0 1rem;
+}
+.navbar-brand, .nav-link{
+    color:#eff8ff;
+}
+.navbar-toggler-icon, .navbar-toggler {
+    background-color:#eff8ff;
+    color:rgb(12, 60, 96);
+}
+.navbar-brand:hover, .nav-link:hover {
+    color:rgb(146, 187, 219);
+}
+main {
+    height: 40rem;
+    background-image: url("rik-buiting-Zb-nqiQsLe4-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#motto {
+    width: 52rem; 
+    height: 16rem;
+    background-color: white;
+    text-align: center;
+    color:rgb(7, 31, 49);
+}
+#motto h1 {
+    font-size: 1.65em;
+    margin: 1.30em 0;
+}
+#motto h2 {
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.75em;
+}
+#motto button {
+    background-color: white;
+    color:rgb(12, 60, 96);
+    border: 1px solid rgb(12, 60, 96);
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 1.25rem 2.5rem;
+    transition: ease-in-out 200ms;
+}
+#motto button:hover {
+    color: white;
+    background-color: rgb(12, 60, 96);
+}
+#info-container {
+    display: flex;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+#info-container h1 {
+    font-size: 2.25em;
+    color:rgb(7, 31, 49);
+    margin-top: 9rem;
+    letter-spacing: 0.1em;
+}
+#info-container p{
+    color:rgb(53, 56, 58);
+    line-height: 2rem;
+    margin: 0 4rem;
+    margin-top: 3.75rem;
+}
+#info-container button {
+    color: white;
+    background-color: rgb(12, 60, 96);
+    padding: 1rem 3rem;
+    border: 1px solid rgb(12, 60, 96);
+    font-size: 1.05em;
+    margin-top: 3rem;
+    transition: ease-in-out 200ms;
+    letter-spacing: 0.08em;
+}
+#info-container button:hover {
+    color:rgb(12, 60, 96);
+    background-color: white;
+}
+#about {
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(220, 239, 255, 0.863), 
+        rgba(220, 239, 255, 0.863)
+      ),url("nicole-kuhn-03VeN3r0eg8-unsplash.jpg");
+    background-size: cover;
+}
+#about h1 {
+    font-size: 2em;
+    color:rgb(7, 31, 49);
+    letter-spacing: 0.08em;
+    padding-top: 7rem;
+}
+#about p {
+    margin: 3rem 20rem;
+    line-height: 2.5rem;
+}
+#about button {
+    background-color: transparent;
+    color:rgb(12, 60, 96);
+    border: 1px solid rgb(12, 60, 96);
+    font-size: 1.01em;
+    font-weight: 400;
+    padding: 1rem 2.75rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    transition: ease-in-out 200ms;
+}
+#about button:hover {
+    color: white;
+    background-color: rgb(12, 60, 96);
+}
+@media (max-width: 1125px) {
+    .nav-item {
+        padding: 0;
+    }
+    #info-container {
+        flex-direction: column;
+    }
+    #about p {
+        margin: 10% 20%;
+    }
+}
