@@ -95,6 +95,7 @@ main {
         rgba(220, 239, 255, 0.863)
       ),url("nicole-kuhn-03VeN3r0eg8-unsplash.jpg");
     background-size: cover;
+    background-position: center;
 }
 #about h1 {
     font-size: 2em;
